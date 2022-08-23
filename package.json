@@ -1,0 +1,37 @@
+{
+  "name": "amazon-automation-framework",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "wdio wdio.conf.js",
+    "generate-reports": "allure generate allure-results --clean && allure open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MolotokAM/it-academy-js-aqa-finalProject.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MolotokAM/it-academy-js-aqa-finalProject/issues"
+  },
+  "homepage": "https://github.com/MolotokAM/it-academy-js-aqa-finalProject#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.18.10",
+    "@babel/core": "^7.18.13",
+    "@babel/preset-env": "^7.18.10",
+    "@babel/register": "^7.18.9",
+    "@wdio/allure-reporter": "^7.23.0",
+    "@wdio/cli": "^7.23.0",
+    "@wdio/local-runner": "^7.23.0",
+    "@wdio/mocha-framework": "^7.23.0",
+    "@wdio/spec-reporter": "^7.23.0",
+    "@wdio/sync": "^7.23.0",
+    "allure-commandline": "^2.18.1",
+    "chai": "^4.3.6",
+    "chromedriver": "^104.0.0",
+    "wdio-chromedriver-service": "^7.3.2"
+  }
+}
